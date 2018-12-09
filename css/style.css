@@ -1,0 +1,95 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55px;
+    border: 1px solid black;
+}
+
+.header-child{
+    display: flex;
+    flex-direction:row-reverse;
+    width: 100%;
+    height: 55px;    
+}
+.header-button{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(221, 218, 218);
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.header-right{
+    margin: 3px;
+}
+.header-logo{
+    border: 2px dashed black;
+    margin: 15px;
+}
+.main-big{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    margin: 10px 0px;    
+}
+.main-solust{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;   
+}
+.main-solust-inside{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 30px 10px 0px 60px;  
+}
+.main{
+    display: flex;
+    order: 2;
+    align-self: flex-end;   
+    flex-wrap: wrap;
+    width: 85%;
+    height: 600px;
+    border: 1px solid black;   
+    overflow-y: scroll;
+}
+.main-inside{
+    width: 226px;
+    height: 550px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin: 30px;
+}
+.main-solalt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 240px;
+    border: 1px solid black;    
+}
+.main-solalt-inside{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;   
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
